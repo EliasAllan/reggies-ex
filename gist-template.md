@@ -11,9 +11,6 @@ The hex value regular expression will help find a hex value inside a string of t
 /^#?([a-f0-9]{6}|[a-f0-9]{3})$/ 
 ```
 
-
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
-
 ## Table of Contents
 
 - [Anchors](#anchors)
@@ -26,9 +23,11 @@ Briefly summarize the regex you will be describing and what you will explain. In
 - [Character Escapes](#character-escapes)
 
 ## Regex Components
+Anchors : /^ and /$
 
 ### Anchors
-
+The snippet /^# indicates the code will start with a hashtag
+The anchor /$ indicates the code will end with the caracters specified before the anchor. In this case, 3 or 6.
 ### Quantifiers
 
 ### Grouping Constructs
